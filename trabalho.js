@@ -5,11 +5,12 @@ function geradorDeTagsDeIdentificacao(nome) {
 
 function verificarSePodeSerAdotado(idade, porte) {
   if (idade === 1 && porte === 'M') {
-    return true
-    console.log('Pode ser adotado!')
-
-  } return false
-    console.log('Não pode ser adotado')
+  console.log('Pode ser adotado!')
+  return true
+    
+  }  console.log('Não pode ser adotado')
+  return false
+   
   }
 
 function calcularConsumoDeRacao(nome, estoque, peso) {
